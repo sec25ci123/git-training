@@ -1,50 +1,232 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Praveen's First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Praveen A | CSE IoT Student</title>
 
     <style>
         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #1e293b;
+            color: white;
             text-align: center;
-            font-family: Arial;
-            background-color: #f2f6ff;
-            padding-top: 100px;
+            padding: 50px 20px;
         }
 
-        h1 {
-            font-size: 50px;
+        header h1 {
+            font-size: 40px;
+            margin: 10px;
         }
 
-        h2 {
-            color: #444;
-        }
-
-        p {
+        header p {
             font-size: 20px;
         }
 
-        button {
-            padding: 12px 25px;
-            border: none;
-            border-radius: 25px;
-            background-color: #222;
+        nav {
+            background: #0f172a;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
             color: white;
-            font-size: 16px;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #1e293b;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .project {
+            background: #f8fafc;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #1e293b;
+        }
+
+        footer {
+            text-align: center;
+            background: #0f172a;
+            color: white;
+            padding: 25px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>👋 Hello Everyone!</h1>
+    <header>
+        <h1>Praveen A</h1>
+        <p>CSE - IoT Student | Technology Enthusiast</p>
+        <p>Welcome to my personal portfolio</p>
+    </header>
 
-    <h2>Welcome to My First Website 🚀</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <p>I'm Praveen 👨‍💻</p>
+    <section id="about">
+        <h2>About Me</h2>
 
-    <p>Learning • Creating • Exploring</p>
+        <p>
+            I'm Praveen A, a native of Mayiladuthurai, Tamil Nadu.
+            I am currently pursuing my B.E. degree in Computer Science
+            and Engineering with a specialization in Internet of Things
+            at Sri Sairam Engineering College, West Tambaram, Chennai.
+        </p>
 
-    <button>Let's Go 🚀</button>
+        <p>
+            I am interested in IoT applications, smart gadgets,
+            robotics, sensor networks, AI-driven automation,
+            cloud integration and emerging technologies.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <h3>B.E. Computer Science and Engineering (IoT)</h3>
+        <p>
+            Sri Sairam Engineering College<br>
+            West Tambaram, Chennai
+        </p>
+
+        <h3>12th Grade</h3>
+        <p>
+            Biology - Mathematics<br>
+            Alagu Jothi Academy
+        </p>
+
+        <h3>10th Grade</h3>
+        <p>
+            Alagu Jothi Academy
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span>C - Basics</span>
+            <span>HTML</span>
+            <span>MS Word</span>
+            <span>MS Excel</span>
+            <span>PowerPoint</span>
+            <span>Internet & Email Management</span>
+        </div>
+
+        <h2>Soft Skills</h2>
+
+        <div class="skills">
+            <span>Teamwork</span>
+            <span>Time Management</span>
+            <span>Adaptability</span>
+            <span>Communication</span>
+            <span>Decision Making</span>
+            <span>Problem Solving</span>
+            <span>Emotional Intelligence</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Smart Crowd Density Risk Prediction and Safety Alert System</h3>
+            <p>
+                A technology-based project focused on monitoring crowd
+                density, predicting potential risks and providing
+                safety alerts.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <ul>
+            <li>
+                Secured State Rank 87 in National Science Olympiad (NSO)
+                conducted by SOF in 2020.
+            </li>
+
+            <li>
+                Qualified NTSE Stage 1 at State Level conducted by NCERT.
+            </li>
+
+            <li>
+                Secured 94.5655467 percentile in NEET 2025.
+            </li>
+
+            <li>
+                Secured around 83 percentile in JEE.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobbies & Interests</h2>
+
+        <p>
+            Listening to music, reading comics, solving puzzles,
+            playing sports, exploring new places, writing stories
+            or blogs, watching movies and sci-fi videos.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p><strong>Phone:</strong> +91 8940756494</p>
+
+        <p>
+            <strong>Email:</strong>
+            sec25ci123@sairamtap.edu.in
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Mayiladuthurai, Tamil Nadu
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Praveen A | Personal Portfolio</p>
+    </footer>
 
 </body>
 </html>
